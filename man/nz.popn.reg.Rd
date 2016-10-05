@@ -3,16 +3,18 @@
 \docType{data}
 \name{nz.popn.reg}
 \alias{nz.popn.reg}
-\title{Estimates of New Zealand population by age, sex, and region, 2006-2014.}
+\title{Estimates of New Zealand population by age, sex, and region, 1996-2015.}
 \format{An array with dimensions "age", "sex", "region", and "year"}
 \source{
-Statistics New Zealand website.
+Data for 1996, 2001, and 2006-2015 downloaded from
+   Statistics New Zealand website, 25 September 2016.  Values
+   for 1997-2000 and 2002-2005 obtained by spline interpolation.
 }
 \usage{
 nz.popn.reg
 }
 \description{
-Estimates of New Zealand population by age, sex, and region, 2006-2014.
+Estimates of New Zealand population by age, sex, and region, 1996-2015.
 }
 \keyword{datasets}
 
