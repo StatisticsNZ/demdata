@@ -41,6 +41,8 @@ popn <- rbind(females, males)
 rownames(popn) <- NULL
 popn$count <- sub(",", "", popn$count)
 popn$count <- as.integer(popn$count)
+popn$lad <- factor(popn$lad,
+                   levels = unique(popn$lad))
 england.wales.popn <- xtabs(count ~ age + sex + lad,
                             data = popn)
 stopifnot(identical(sum(england.wales.popn), 57408654L))

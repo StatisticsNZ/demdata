@@ -55,7 +55,8 @@ deaths$age <- sub("plus", "+", deaths$age)
 rownames(deaths) <- NULL
 deaths$count <- sub(",", "", deaths$count)
 deaths$count <- as.integer(deaths$count)
-deaths$lad <- deaths$region
+deaths$lad <- factor(deaths$region,
+                     levels = unique(deaths$region))
 stopifnot(identical(sum(deaths$count),
                     245142L + 256282L))
 
