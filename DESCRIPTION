@@ -1,10 +1,13 @@
 Package: demdata
 Type: Package
 Title: Demographic data
-Version: 0.0.0.9100
-Date: 2016-09-19
-Author: John Bryant
-Maintainer: John Bryant <john.bryant@stats.govt.nz>
+Version: 0.0.0.9101
+Date: 2016-11-05
+Authors@R: c(
+    person(given = "John",
+           family = "Bryant",
+	   email = "john.bryant@stats.govt.nz",
+	   role = c("cre", "aut")))
 Description: Example datasets for demography.
 LazyData: TRUE
 Depends: R (>= 3.3.1)

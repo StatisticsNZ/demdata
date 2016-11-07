@@ -1,5 +1,4 @@
 
-
 conc <- read.csv("data-raw/ONS_Deaths/Ward_to_Local_Authority_District_December_2014_Lookup_in_the_United_Kingdom.csv",
                  as.is = TRUE)
 conc <- conc[c("LAD14CD", "LAD14NM")]

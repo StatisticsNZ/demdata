@@ -1,4 +1,11 @@
-^\.hg$
+
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^cran-comments\.md$
+^NEWS\.md$
 ^data-raw$
+^\.git$
+^\.DS_Store$
+^\.gitignore$
+^\.Rhistory$
