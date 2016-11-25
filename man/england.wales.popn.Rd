@@ -5,7 +5,8 @@
 \alias{england.wales.popn}
 \title{Mid-Year Population in England and Wales in 2014 by Age, Sex,
 and Local Administrative District (LAD).}
-\format{An array with dimensions "age", "sex", and "lad".}
+\format{An array with dimensions "age", "sex", and "region".
+The region dimension gives LAD names.}
 \source{
 Dataset
 "MYE2_population_by_sex_and_age_for_local_authorities_UK_2014"

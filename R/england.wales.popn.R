@@ -3,7 +3,8 @@
 #'
 #' The data are from the Office for National Statistics website.
 #'
-#' @format An array with dimensions "age", "sex", and "lad".
+#' @format An array with dimensions "age", "sex", and "region".
+#' The region dimension gives LAD names.
 #'
 #' @source Dataset
 #' "MYE2_population_by_sex_and_age_for_local_authorities_UK_2014"

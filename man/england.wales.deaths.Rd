@@ -5,7 +5,7 @@
 \alias{england.wales.deaths}
 \title{Deaths in England and Wales in 2014 by Age, Sex, and Local Administrative
 District (LAD).}
-\format{An array with dimensions "age", "sex", and "lad".}
+\format{An array with dimensions "age", "sex", and "region".}
 \source{
 Dataset "deathsarea2014tcm77431322" downloaded from the
 ONS website on 21 October 2016.
@@ -18,8 +18,8 @@ The data are from the Office for National Statistics website, but
 modified to make the Local Administrative District (LAD) names
 consistent with those for \code{\link{england.wales.popn}}.  The
 districts "Isles of Scilly" and "Cornwall" are combined in the original
-data.  The 'lad' dimension includes the category "Usual residence
-outside England and Wales".
+data.  The 'region' dimension gives LAD names but also includes the
+category "Usual residence outside England and Wales".
 }
 \keyword{datasets}
 

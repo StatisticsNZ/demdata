@@ -5,10 +5,10 @@
 #' modified to make the Local Administrative District (LAD) names
 #' consistent with those for \code{\link{england.wales.popn}}.  The
 #' districts "Isles of Scilly" and "Cornwall" are combined in the original
-#' data.  The 'lad' dimension includes the category "Usual residence
-#' outside England and Wales".  
+#' data.  The 'region' dimension gives LAD names but also includes the
+#' category "Usual residence outside England and Wales".  
 #'
-#' @format An array with dimensions "age", "sex", and "lad".
+#' @format An array with dimensions "age", "sex", and "region".
 #'
 #' @source Dataset "deathsarea2014tcm77431322" downloaded from the
 #' ONS website on 21 October 2016.

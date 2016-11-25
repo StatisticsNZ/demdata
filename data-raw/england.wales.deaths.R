@@ -54,12 +54,12 @@ deaths$age <- sub("plus", "+", deaths$age)
 rownames(deaths) <- NULL
 deaths$count <- sub(",", "", deaths$count)
 deaths$count <- as.integer(deaths$count)
-deaths$lad <- factor(deaths$region,
-                     levels = unique(deaths$region))
+deaths$region <- factor(deaths$region,
+                        levels = unique(deaths$region))
 stopifnot(identical(sum(deaths$count),
                     245142L + 256282L))
 
-england.wales.deaths <- xtabs(count ~ age + sex + lad,
+england.wales.deaths <- xtabs(count ~ age + sex + region,
                               data = deaths)
 england.wales.deaths <- array(as.integer(england.wales.deaths),
                               dim = dim(england.wales.deaths),

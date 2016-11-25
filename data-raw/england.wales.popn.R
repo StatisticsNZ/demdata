@@ -33,17 +33,17 @@ males <- reshape(males,
                  times = c(0:89, "90+"),
                  direction = "long",
                  drop = c("CODE", "NAME", "ALL.AGES"))
-names(females)[match("LAD14NM", names(females))] <- "lad"
-names(males)[match("LAD14NM", names(males))] <- "lad"
+names(females)[match("LAD14NM", names(females))] <- "region"
+names(males)[match("LAD14NM", names(males))] <- "region"
 females$sex <- "Female"
 males$sex <- "Male"
 popn <- rbind(females, males)
 rownames(popn) <- NULL
 popn$count <- sub(",", "", popn$count)
 popn$count <- as.integer(popn$count)
-popn$lad <- factor(popn$lad,
-                   levels = unique(popn$lad))
-england.wales.popn <- xtabs(count ~ age + sex + lad,
+popn$region <- factor(popn$region,
+                      levels = unique(popn$region))
+england.wales.popn <- xtabs(count ~ age + sex + region,
                             data = popn)
 stopifnot(identical(sum(england.wales.popn), 57408654L))
 
