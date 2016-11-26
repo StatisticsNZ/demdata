@@ -47,7 +47,7 @@ deaths <- reshape(deaths,
                   v.names = "count",
                   idvar = c("region", "age"),
                   timevar = "sex",
-                  times = c("Female", "Male"),
+                  times = c("Females", "Males"),
                   direction = "long")
 deaths$age <- sub("_", "-", deaths$age)
 deaths$age <- sub("plus", "+", deaths$age)
@@ -67,8 +67,4 @@ england.wales.deaths <- array(as.integer(england.wales.deaths),
 save(england.wales.deaths,
      file = "data/england.wales.deaths.rda",
      compress = "xz")
-
-
-
-              
-
+            

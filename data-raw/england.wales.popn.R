@@ -35,8 +35,8 @@ males <- reshape(males,
                  drop = c("CODE", "NAME", "ALL.AGES"))
 names(females)[match("LAD14NM", names(females))] <- "region"
 names(males)[match("LAD14NM", names(males))] <- "region"
-females$sex <- "Female"
-males$sex <- "Male"
+females$sex <- "Females"
+males$sex <- "Males"
 popn <- rbind(females, males)
 rownames(popn) <- NULL
 popn$count <- sub(",", "", popn$count)
