@@ -7,7 +7,8 @@ The data are used for examples in packages `classconc`, `dembase`, and `demest`.
 
 Install `demdata` from github with:
 ```{r, echo = FALSE}
-devtools::install_github("StatisticsNZ/demdata")
+library(devtools)
+install_github("statisticsnz/demdata")
 ```
 
 ---
