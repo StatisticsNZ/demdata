@@ -5,7 +5,7 @@ library(tidyr)
 library(plyr)
 
 getData <- function(filename) {
-    file <- file.path("data-raw/sweden.deaths_sweden.popn", filename)
+    file <- file.path("data-raw/sweden.popn", filename)
     d <- read.csv(file = file,
                   skip = 2)
     d <- gather_(d,
