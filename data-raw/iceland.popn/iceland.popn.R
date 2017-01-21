@@ -16,7 +16,7 @@ d$age <- factor(d$age,
                 levels = seq.int(from = 0, to = max(d$age)))
 iceland.popn <- xtabs(count ~ age + sex + year,
                       data = d)
-iceland.popn <- array(as.double(iceland.popn),
+iceland.popn <- array(as.integer(iceland.popn),
                       dim = dim(iceland.popn),
                       dimnames = dimnames(iceland.popn))
 save(iceland.popn,

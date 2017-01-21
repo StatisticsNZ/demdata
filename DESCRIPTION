@@ -1,8 +1,8 @@
 Package: demdata
 Type: Package
 Title: Demographic data
-Version: 0.0.0.9103
-Date: 2017-01-21
+Version: 0.0.0.9104
+Date: 2017-01-22
 Authors@R: c(
     person(given = "John",
            family = "Bryant",
@@ -13,4 +13,3 @@ LazyData: TRUE
 Depends: R (>= 3.3.1)
 RoxygenNote: 5.0.1
 License: MIT + file LICENSE
-

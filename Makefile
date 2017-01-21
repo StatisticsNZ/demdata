@@ -5,11 +5,16 @@
 vpath %.rda data
 
 .PHONY: all
-all: iceland.migrants.rda \
+all: iceland.births.rda \
+     iceland.migrants.rda \
      iceland.popn.rda \
      sweden.deaths.rda \
      sweden.popn.rda
 
+
+iceland.births.rda : data-raw/iceland.births/iceland.births.R \
+                     data-raw/iceland.births/MAN05101.csv
+	$<
 
 iceland.migrants.rda : data-raw/iceland.migrants/iceland.migrants.R \
                        data-raw/iceland.migrants/MAN01401-3.csv
