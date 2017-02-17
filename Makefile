@@ -8,6 +8,7 @@ vpath %.rda data
 all: iceland.births.rda \
      iceland.migrants.rda \
      iceland.popn.rda \
+     sweden.births.rda \
      sweden.deaths.rda \
      sweden.popn.rda
 
@@ -22,6 +23,11 @@ iceland.migrants.rda : data-raw/iceland.migrants/iceland.migrants.R \
 
 iceland.popn.rda : data-raw/iceland.popn/iceland.popn.R \
                    data-raw/iceland.popn/MAN00101.csv
+	$<
+
+sweden.births.rda : data-raw/sweden.births/sweden.births.R \
+                    data-raw/sweden.births/BE0101E2.csv \
+                    data-raw/sweden.births/BE0101E2-2.csv
 	$<
 
 sweden.deaths.rda : data-raw/sweden.deaths/sweden.deaths.R \
