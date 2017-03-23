@@ -1,15 +1,15 @@
 
-lad <- read.csv("data-raw/ONS_Deaths/Ward_to_Local_Authority_District_December_2014_Lookup_in_the_United_Kingdom.csv",
+lad <- read.csv("data-raw/england.wales.conc/Ward_to_Local_Authority_District_December_2014_Lookup_in_the_United_Kingdom.csv",
                 as.is = TRUE)
 lad <- lad[c("LAD14CD", "LAD14NM")]
-reg <- read.csv("data-raw/ONS_Deaths/LAD15_RGN15_EN_LU.csv",
+reg <- read.csv("data-raw/england.wales.conc/LAD15_RGN15_EN_LU.csv",
                 as.is = TRUE)
 conc <- merge(lad, reg, by.x = "LAD14CD", by.y = "LAD15CD")
 conc <- unique(conc)
 england.conc <- conc[c("LAD14NM", "RGN15NM")]
 names(england.conc) <- c("lad", "rgn")
 load("data/england.wales.deaths.rda")
-lad.wales <- setdiff(dimnames(england.wales.deaths)$lad,
+lad.wales <- setdiff(dimnames(england.wales.deaths)$region,
                      c(conc$LAD15NM,
                        "Usual residence outside England and Wales",
                        "Cornwall and Isles of Scilly",

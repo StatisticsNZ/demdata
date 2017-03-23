@@ -19,8 +19,8 @@ Australia, Canada, China, Germany, Japan, Korea, the UK, and the US.
 The data are disaggregated by age, sex, quarter, and country of origin.
 }
 \seealso{
-\code{\link{nz.arrivals}} has data on 'permanent and long-term'
-arrivals in New Zealand.
+\code{\link{nz.intl.migr}} has data on 'permanent and long-term'
+arrivals and departures in New Zealand.
 }
 \keyword{datasets}
 

@@ -5,13 +5,33 @@
 vpath %.rda data
 
 .PHONY: all
-all: iceland.births.rda \
+all: england.wales.conc.rda \
+     england.wales.deaths.rda \
+     england.wales.popn.rda \
+     iceland.births.rda \
      iceland.migrants.rda \
      iceland.popn.rda \
+     nz.intl.migr.rda \
      sweden.births.rda \
      sweden.deaths.rda \
      sweden.popn.rda
 
+
+england.wales.conc.rda : data-raw/england.wales.conc/england.wales.conc.R \
+                         data-raw/england.wales.conc/Ward_to_Local_Authority_District_December_2014_Lookup_in_the_United_Kingdom.csv \
+                         data-raw/england.wales.conc/LAD15_RGN15_EN_LU.csv
+	Rscript $<
+
+england.wales.deaths.rda : data-raw/england.wales.deaths/england.wales.deaths.R \
+                           data-raw/england.wales.deaths/Ward_to_Local_Authority_District_December_2014_Lookup_in_the_United_Kingdom.csv \
+                           data-raw/england.wales.deaths/deathsarea2014tcm77431322/Table-2-Table-1.csv
+	Rscript $<
+
+england.wales.popn.rda : data-raw/england.wales.popn/england.wales.popn.R \
+                         data-raw/england.wales.popn/Ward_to_Local_Authority_District_December_2014_Lookup_in_the_United_Kingdom.csv \
+                         data-raw/england.wales.popn/MYE2_population_by_sex_and_age_for_local_authorities_UK_2014/UK-females-Table-1.csv \
+                         data-raw/england.wales.popn/MYE2_population_by_sex_and_age_for_local_authorities_UK_2014/UK-males-Table-1.csv
+	Rscript $<
 
 iceland.births.rda : data-raw/iceland.births/iceland.births.R \
                      data-raw/iceland.births/MAN05101.csv
@@ -23,6 +43,10 @@ iceland.migrants.rda : data-raw/iceland.migrants/iceland.migrants.R \
 
 iceland.popn.rda : data-raw/iceland.popn/iceland.popn.R \
                    data-raw/iceland.popn/MAN00101.csv
+	$<
+
+nz.intl.migr.rda : data-raw/nz.intl.migr/nz.intl.migr.R \
+                   data-raw/nz.intl.migr/ITM340202_20170305_021409_89.csv
 	$<
 
 sweden.births.rda : data-raw/sweden.births/sweden.births.R \

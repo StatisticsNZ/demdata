@@ -8,8 +8,8 @@
 #' 
 #' @format An array with dimensions "age", "sex", and "time".
 #'
-#' @seealso \code{\link{nz.arrivals}} has data on 'permanent and long-term'
-#' arrivals in New Zealand.
+#' @seealso \code{\link{nz.intl.migr}} has data on 'permanent and long-term'
+#' arrivals and departures in New Zealand.
 #' 
 #' @source Statistics New Zealand website. Downloaded 7 September 2016.
 "nz.visitors"
