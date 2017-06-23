@@ -1,4 +1,3 @@
-#!/usr/local/bin/Rscript
 
 library(methods)
 library(tidyr)

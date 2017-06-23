@@ -1,9 +1,12 @@
 
-#' Estimates of New Zealand population by age, sex, and region, 1996-2015.
+#' Estimates of New Zealand population by age, sex, and region, 1996-2016.
 #'
+#' The population counts refer to 30 June of each year.
+#' 
 #' @format An array with dimensions "age", "sex", "region", and "year"
 #'
-#' @source Data for 1996, 2001, and 2006-2015 downloaded from
-#'    Statistics New Zealand website, 25 September 2016.  Values
-#'    for 1997-2000 and 2002-2005 obtained by spline interpolation.
+#' @source Custom tabulation from Statistics New Zealand.
+#'
+#' @seealso \code{\link{nz.births.reg}}, \code{\link{nz.deaths.reg}},
+#' \code{\link{nz.int.mig.reg}}, \code{\link{nz.ext.mig.reg}}.
 "nz.popn.reg"

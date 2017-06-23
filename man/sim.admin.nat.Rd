@@ -10,14 +10,14 @@ sim.admin.nat
 }
 \description{
 The dataset was constructed by aggregating over the \code{region} dimension
-of New Zealand population data, and then adding a small amount of random
+of \code{\link{sim.popn.true}}, and then adding a small amount of random
 noise.
 }
 \seealso{
 The other simulated administrative datasets are
 \code{\link{sim.admin.health}}, \code{\link{sim.admin.school}},
-and \code{\link{sim.admin.survey}}.  The original New Zealand population
-dataset is \code{\link{nz.popn.ta}}.
+and \code{\link{sim.admin.survey}}.  The underlying "simulation-true"
+population counts are \code{\link{sim.popn.true}}.
 }
 \keyword{datasets}
 

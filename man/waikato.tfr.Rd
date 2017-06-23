@@ -6,22 +6,22 @@
 \title{Total fertility rates in the Waikato region of New Zealand.}
 \format{An array with dimensions "year" and "iteration".}
 \source{
-Calculated from \code{\link{nz.births}} and
+Calculated from \code{\link{nz.births.reg}} and
 \code{\link{nz.popn.reg}}.
 }
 \usage{
 waikato.tfr
 }
 \description{
-The total fertility rate is the number of children that a woman would
+The total fertility rate is the average number of children that a woman would
 bear over her lifetime if current age-specific fertility rates were to
 continue indefinitely.
 }
 \details{
-The estimates are for the period 2006-2014 and were constructed from
-\code{\link{nz.births}} and \code{\link{nz.popn.reg}},
+The estimates are for the period 1996-2015 and were constructed from
+\code{\link{nz.births.reg}} and \code{\link{nz.popn.reg}},
 using function \code{\link[demest]{estimateModel}} in package
-\code{demest}.  \code{waikato.tfr} contains 1,000 iterations.
+\code{demest}.  \code{waikato.tfr} contains 100 iterations.
 Variation across the iterations captures uncertainty about the
 true rates.
 }
