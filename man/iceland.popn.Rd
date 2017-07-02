@@ -16,4 +16,3 @@ iceland.popn
 The data are from the Statistics Iceland website.
 }
 \keyword{datasets}
-

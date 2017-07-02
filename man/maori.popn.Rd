@@ -23,4 +23,3 @@ The data have been confidentialised by Statistics New Zealand by rounding
 to the nearest 10.
 }
 \keyword{datasets}
-

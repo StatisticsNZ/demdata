@@ -16,4 +16,3 @@ The \code{\link[datasets]{VADeaths}} data from the \pkg{datasets} package,
 rearranged into a 3-dimensional array.
 }
 \keyword{datasets}
-

@@ -25,4 +25,3 @@ The \code{"island_orig"} indicates residence in 2001 and
 \code{"island_dest"} indicates residence in 2006.
 }
 \keyword{datasets}
-

@@ -22,4 +22,3 @@ data.  The 'region' dimension gives LAD names but also includes the
 category "Usual residence outside England and Wales".
 }
 \keyword{datasets}
-

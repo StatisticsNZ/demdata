@@ -39,4 +39,3 @@ post-amalgamation boundary for 2011-2016.
 \code{\link{nz.popn.ta}}
 }
 \keyword{datasets}
-

@@ -24,4 +24,3 @@ nz.income
 A 'synthetic unit record file' based on the 2011 New Zealand Income Survey.
 }
 \keyword{datasets}
-

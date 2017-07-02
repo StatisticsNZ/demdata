@@ -19,4 +19,3 @@ Prospects.  Includes the life table functions mx, qx, px, lx, dx, Lx,
 Sx, Tx, ex, and ax.
 }
 \keyword{datasets}
-

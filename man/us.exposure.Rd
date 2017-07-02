@@ -20,4 +20,3 @@ More recent versions, and a comprehensive description of the data,
 are available at the HMD website.
 }
 \keyword{datasets}
-

@@ -16,6 +16,7 @@ all: data/england.wales.conc.rda \
      data/nz.ext.mig.reg.rda \
      data/nz.intl.migr.rda \
      data/nz.school.rda \
+     data/russia.births.rda \
      data/sim.popn.true.rda \
      data/sim.admin.nat.rda \
      data/sim.admin.school.rda \
@@ -81,6 +82,10 @@ data/nz.intl.migr.rda : data-raw/nz.intl.migr/nz.intl.migr.R \
 
 data/nz.school.rda : data-raw/nz.school/nz.school.R \
                      data-raw/nz.school/Age-and-Region-2016.xls
+	Rscript $<
+
+data/russia.births.rda : data-raw/russia.births/russia.births.R \
+                         data-raw/russia.births/UNdata_Export_20160304_232915853.csv
 	Rscript $<
 
 data/sim.popn.true.rda : data-raw/sim.popn.true.R \

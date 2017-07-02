@@ -17,4 +17,3 @@ india.fert
 Estimates of Indian fertility rates (per thousand) by age of mother and period.
 }
 \keyword{datasets}
-

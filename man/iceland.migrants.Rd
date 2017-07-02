@@ -19,4 +19,3 @@ of immigrants and emigrants, and distinguish between Icelandic citizens
 and foreigners.
 }
 \keyword{datasets}
-

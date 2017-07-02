@@ -21,4 +21,3 @@ unemployment rates by age and sex for the United States in 2014.
 \code{link{sim.unemployed}}, \code{\link{sim.labor.force}}
 }
 \keyword{datasets}
-

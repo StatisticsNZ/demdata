@@ -21,4 +21,3 @@ The data have been confidentialised by Statistics New Zealand by rounding
 randomly to base 3.
 }
 \keyword{datasets}
-

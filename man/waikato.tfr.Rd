@@ -26,4 +26,3 @@ Variation across the iterations captures uncertainty about the
 true rates.
 }
 \keyword{datasets}
-

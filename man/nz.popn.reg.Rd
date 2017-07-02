@@ -19,4 +19,3 @@ The population counts refer to 30 June of each year.
 \code{\link{nz.int.mig.reg}}, \code{\link{nz.ext.mig.reg}}.
 }
 \keyword{datasets}
-

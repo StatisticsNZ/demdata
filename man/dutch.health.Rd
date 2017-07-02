@@ -22,4 +22,3 @@ Data are only available for the years 2003, 2005, 2007, and 2011.
 Missing values are used for intermediate years.
 }
 \keyword{datasets}
-

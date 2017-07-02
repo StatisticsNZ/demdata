@@ -18,4 +18,3 @@ have over her life time if current age-specific fertility rates were to
 continue indefinitely.
 }
 \keyword{datasets}
-

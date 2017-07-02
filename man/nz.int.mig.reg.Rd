@@ -25,4 +25,3 @@ confidentiality.
 \code{\link{nz.deaths.reg}}, \code{\link{nz.ext.mig.reg}}.
 }
 \keyword{datasets}
-

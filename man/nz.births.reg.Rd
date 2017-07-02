@@ -29,4 +29,3 @@ group \code{"45-49"}.
 \code{\link{nz.int.mig.reg}}, \code{\link{nz.ext.mig.reg}}.
 }
 \keyword{datasets}
-

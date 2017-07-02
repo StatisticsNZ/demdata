@@ -22,4 +22,3 @@ The acts as the underlying counts, or "simulation truth", for datasets
 The data were created from \code{\link{nz.popn.ta}}.
 }
 \keyword{datasets}
-

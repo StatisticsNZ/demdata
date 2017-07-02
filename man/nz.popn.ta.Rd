@@ -25,4 +25,3 @@ uses the post-amalgamation boundaries for the entire
 period 1996-2015.
 }
 \keyword{datasets}
-

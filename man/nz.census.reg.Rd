@@ -25,4 +25,3 @@ Column \code{pr.inc.50} shows the proportion of adults whose total
 personal income exceeds $NZ 50,000 per year.
 }
 \keyword{datasets}
-

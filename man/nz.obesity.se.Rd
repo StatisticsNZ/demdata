@@ -20,4 +20,3 @@ reports on the New Zealand Health Survey, 1997, 2003, 2007, 2012, 2013.
 Estimates are in \code{\link{nz.obesity.mean}}
 }
 \keyword{datasets}
-

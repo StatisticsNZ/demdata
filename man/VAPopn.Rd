@@ -22,4 +22,3 @@ The population of Virginia in 1940 classified by age, sex, rural-urban
 \code{\link{VADeaths2}}
 }
 \keyword{datasets}
-

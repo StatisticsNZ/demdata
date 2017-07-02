@@ -1,15 +1,15 @@
 Package: demdata
 Type: Package
 Title: Demographic data
-Version: 0.0.0.9106
-Date: 2017-06-23
+Version: 0.0.0.9107
+Date: 2017-07-02
 Authors@R: c(
     person(given = "John",
            family = "Bryant",
 	   email = "john.bryant@stats.govt.nz",
 	   role = c("cre", "aut")))
 Description: Example datasets for demography.
-LazyData: TRUE
+LazyData: yes
 Depends: R (>= 3.3.1)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 License: MIT + file LICENSE

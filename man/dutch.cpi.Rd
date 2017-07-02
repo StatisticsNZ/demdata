@@ -17,4 +17,3 @@ dutch.cpi
 Consumer Price Index in the Netherlands, 1996-2015.
 }
 \keyword{datasets}
-

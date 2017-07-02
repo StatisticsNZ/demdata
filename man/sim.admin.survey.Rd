@@ -20,4 +20,3 @@ and \code{\link{sim.admin.school}}.  The underlying "simulation-true"
 population counts are \code{\link{sim.popn.true}}.
 }
 \keyword{datasets}
-

@@ -21,4 +21,3 @@ For the purposes of the concordance, the country of Wales has been
 is referred to as a region.
 }
 \keyword{datasets}
-

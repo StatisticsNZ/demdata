@@ -21,4 +21,3 @@ age, sex, and regional council area, on 1 July of each year.
 Students in the Chatham Islands have been recoded to the Canterbury region.
 }
 \keyword{datasets}
-

@@ -11,4 +11,3 @@ The datasets are used  by packages 'demdata', 'demest',
 though some are data.frames.  Most of the data is real,
 but some is simulated.
 }
-

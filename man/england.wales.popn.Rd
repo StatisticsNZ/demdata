@@ -19,4 +19,3 @@ england.wales.popn
 The data are from the Office for National Statistics website.
 }
 \keyword{datasets}
-

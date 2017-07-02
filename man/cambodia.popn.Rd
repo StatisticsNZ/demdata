@@ -17,4 +17,3 @@ cambodia.popn
 Estimates of Cambodian population from 2008 census.
 }
 \keyword{datasets}
-

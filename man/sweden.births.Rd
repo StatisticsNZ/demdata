@@ -20,4 +20,3 @@ Accents have been and umlauts have been removed from county names
 to avoid problems with encoding. (Apologies to Swedish speakers.)
 }
 \keyword{datasets}
-

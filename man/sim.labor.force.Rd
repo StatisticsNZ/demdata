@@ -22,4 +22,3 @@ to sum to approximately 2000 (1989) in each region.
 \code{link{sim.unemployed}}, \code{\link{sim.unemployment.rate}}
 }
 \keyword{datasets}
-

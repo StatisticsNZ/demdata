@@ -19,4 +19,3 @@ Estimates from New Zealand Health Survey, 1997, 2003, 2007, 2012, 2013.
 Standard errors for the estimates are in \code{\link{nz.obesity.se}}
 }
 \keyword{datasets}
-

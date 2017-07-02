@@ -16,4 +16,3 @@ uk.sex.ratio
 The sex ratio is the number of male births per 100 female births.
 }
 \keyword{datasets}
-

@@ -16,4 +16,3 @@ iceland.births
 The data are from the Statistics Iceland website.
 }
 \keyword{datasets}
-

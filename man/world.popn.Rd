@@ -17,4 +17,3 @@ world.popn
 Estimates of world population by 5-year age group and sex, from the World Population Prospects.
 }
 \keyword{datasets}
-

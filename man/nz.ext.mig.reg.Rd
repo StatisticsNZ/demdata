@@ -31,4 +31,3 @@ out when entering and leaving the country.
 \code{\link{nz.deaths.reg}}, \code{\link{nz.int.mig.reg}}.
 }
 \keyword{datasets}
-
