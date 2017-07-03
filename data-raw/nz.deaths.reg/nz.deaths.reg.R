@@ -7,7 +7,7 @@ nz.deaths.reg <- read_csv("data-raw/nz.deaths.reg/rc13_dths9716_rr3.csv")
 nz.deaths.reg <- nz.deaths.reg %>%
     mutate(age = substr(age_grp, start = 1, stop = 2),
            age = as.integer(age),
-           age = paste(age, age + 4, sep = "-")) %>%
+           age = ifelse(age < 90, paste(age, age + 4, sep = "-"), "90+")) %>%
     mutate(region = gsub(" Region", "", rc13desc),
            region = recode(region, "Area Outside" = "Area Outside Region"),
            region = factor(region, levels = unique(region)))

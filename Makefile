@@ -12,6 +12,7 @@ all: data/england.wales.conc.rda \
      data/nz.popn.reg.rda \
      data/nz.births.reg.rda \
      data/nz.deaths.reg.rda \
+     data/nz.injuries.rda \
      data/nz.int.mig.reg.rda \
      data/nz.ext.mig.reg.rda \
      data/nz.intl.migr.rda \
@@ -66,6 +67,10 @@ data/nz.births.reg.rda : data-raw/nz.births.reg/nz.births.reg.R \
 
 data/nz.deaths.reg.rda : data-raw/nz.deaths.reg/nz.deaths.reg.R \
                          data-raw/nz.deaths.reg/rc13_dths9716_rr3.csv
+	Rscript $<
+
+data/nz.injuries.rda : data-raw/nz.injuries/nz.injuries.R \
+                       data-raw/nz.injuries/Count_of_fatal_and_series_non-fatal_injuries_by_sex/TABLECODE7935_Data_32d81df2-590c-443e-bc4e-7030037f2be2.csv
 	Rscript $<
 
 data/nz.int.mig.reg.rda : data-raw/nz.int.mig.reg/nz.int.mig.reg.R \
