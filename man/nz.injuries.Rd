@@ -4,7 +4,7 @@
 \name{nz.injuries}
 \alias{nz.injuries}
 \title{Non-fatal injurines in New Zealand.}
-\format{An data.frame with 743 rows and the following variables:
+\format{A data.frame with 727 rows and the following variables:
 \describe{
   \item{year}{Calendar year in which the injury occurred.}
   \item{age}{Age, in broad age groups.}
@@ -22,5 +22,10 @@ nz.injuries
 }
 \description{
 Counts of non-fatal injuries in New Zealand, by year, age, sex, and cause.
+}
+\details{
+The original dataset only included work-related injuries, but not
+other injuries, for the years 2014 and 2015, so these years
+have been excluded from from \code{nz.injuries}.
 }
 \keyword{datasets}
