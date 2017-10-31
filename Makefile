@@ -26,7 +26,12 @@ all: data/england.wales.conc.rda \
      data/sweden.births.rda \
      data/sweden.deaths.rda \
      data/sweden.popn.rda \
-     data/waikato.tfr.rda
+     data/sweden.hmd.deaths.rda \
+     data/sweden.hmd.exposure.rda \
+     data/us.deaths.rda \
+     data/us.exposure.rda \
+     data/waikato.tfr.rda \
+     data/world.popn.rda
 
 
 data/england.wales.conc.rda : data-raw/england.wales.conc/england.wales.conc.R \
@@ -134,9 +139,28 @@ data/sweden.popn.rda : data-raw/sweden.popn/sweden.popn.R \
                        data-raw/sweden.popn/BE0101N1-5.csv
 	Rscript $<
 
+data/sweden.hmd.deaths.rda : data-raw/sweden.hmd.deaths/sweden.hmd.deaths.R \
+                             data-raw/sweden.hmd.deaths/SWE.Deaths_1x1.txt
+	Rscript $<
+
+data/sweden.hmd.exposure.rda : data-raw/sweden.hmd.exposure/sweden.hmd.exposure.R \
+                               data-raw/sweden.hmd.exposure/SWE.Exposures_1x1.txt
+	Rscript $<
+
+data/us.exposure.rda : data-raw/us.exposure/us.exposure.R \
+                       data-raw/us.exposure/Exposures_1x1.txt
+	Rscript $<
+
+data/us.deaths.rda : data-raw/us.deaths/us.deaths.R \
+                     data-raw/us.deaths/Deaths_1x1.txt
+	Rscript $<
+
 data/waikato.tfr.rda : data-raw/waikato.tfr.R \
                        data/nz.births.reg.rda \
                        data/nz.popn.reg.rda
+	Rscript $<
+
+data/world.popn.rda : data-raw/world.popn.R
 	Rscript $<
 
 
