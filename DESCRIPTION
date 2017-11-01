@@ -1,7 +1,7 @@
 Package: demdata
 Type: Package
 Title: Demographic data
-Version: 0.0.0.9109
+Version: 0.0.0.9110
 Date: 2017-11-01
 Authors@R: c(
     person(given = "John",
