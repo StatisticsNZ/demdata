@@ -7,7 +7,7 @@ sweden.hmd.exposure <- read.table("data-raw/sweden.hmd.exposure/SWE.Exposures_1x
                                 na.string = ".") %>%
     select(year = Year, age = Age, Female, Male) %>%
     gather(key = "sex", value = "count", -year, -age) %>%
-    mutate(age = factor(age, levels = c(0:100, "100+"))) %>%
+    mutate(age = factor(age, levels = c(0:99, "100+"))) %>%
     xtabs(count ~ age + sex + year, data = .) %>%
     array(., dim = dim(.), dimnames = dimnames(.))
 
