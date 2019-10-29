@@ -17,7 +17,7 @@ kLevelsRegion <- c("Northland",
                    "Southland")
 
 
-eth <- read.csv("data-raw/Ethnic group (grouped total responses) and Maori descent indicator by sex/TABLECODE8023_Data_d980851a-e976-422c-b81e-fe00392391a9.csv")
+eth <- read.csv("data-raw/ethnic_group/TABLECODE8023_Data.csv")
 eth <- subset(eth, Area != "Total, New Zealand by territorial authority/area unit")
 eth$region <- sub(" Region", "", eth$Area)
 eth <- reshape(eth,
@@ -35,7 +35,7 @@ eth <- within(eth, {
     rm(total, european, maori, pacific, asian)
 })
   
-inc <- read.csv("data-raw/Total personal income (grouped) and ethnic group (grouped total responses) by sex/TABLECODE8112_Data_526012fd-8ba5-4f90-8d57-9ee5706b2b63.csv")
+inc <- read.csv("data-raw/Total income/TABLECODE8112_Data.csv")
 inc <- subset(inc, Area != "Total, New Zealand by territorial authority/area unit")
 inc$region <- sub(" Region", "", inc$Area)
 inc <- reshape(inc,
